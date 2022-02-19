@@ -5,12 +5,13 @@ import java.util.Scanner;											//imported to use scanner--> get the user in
 public class Calculator{
 
     public static void main(String[] args) {  						//main driver method
-
+    	char c=0;
         int choice;
+        Scanner input = new Scanner(System.in);	
         
         // do while loop to run calculator for multiple cycles until user enters 'e' to exit the loop
         do {	
-        	Scanner input = new Scanner(System.in);					//predefined standard input object
+        					//predefined standard input object
         	System.out.println("Please Select Operation to Perform:");
 	        System.out.println("1-Addition");
 	        System.out.println("2-Subtraction");
@@ -21,6 +22,7 @@ public class Calculator{
 	
 	        System.out.print("Please enter the first number: ");
 	        double first_num = input.nextDouble();
+	        
 	        System.out.print("Please enter the second number: ");
 	        double second_num = input.nextDouble();
 	        
@@ -45,14 +47,13 @@ public class Calculator{
 	        }
 	        
 	        System.out.println("\n");
+	                
+	        System.out.println("Enter any key to continue and  'e' to exit");
 	        
-	        System.out.print("Enter any key to continue and  'e' to exit");
-	        choice = input.next().charAt(0);					//charAt(0) -->returning the char present at index 0
-	        
-	        input.close();										//closing the input stream
-	        
+	        choice = input.next().charAt(0);		//charAt(0) -->returning the char present at index 0       										
+	    
         	}while(choice!='e');								//loop will run until user enters 'e'
-     
+        input.close();											//closing the input stream
     } 
   
 }
