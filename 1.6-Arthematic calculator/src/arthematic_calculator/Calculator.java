@@ -5,7 +5,7 @@ import java.util.Scanner;											//imported to use scanner--> get the user in
 public class Calculator{
 
     public static void main(String[] args) {  						//main driver method
-    	char c=0;
+    	
         int choice;
         Scanner input = new Scanner(System.in);	
         
