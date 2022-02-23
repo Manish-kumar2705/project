@@ -1,4 +1,4 @@
-package method.overloading;
+package methodOverloading;
 //code depicting method overloading. which method to run is determined during compile time
 class TestOne{
 	int a,b;
