@@ -10,7 +10,7 @@ class TestOne{
 		
 	}
 	
-	int square(int a) {										//method to be overridden
+	int square(int a) {										//method to be overridden //call by value
 		this.a=a*a;
 		System.out.println("Testone method");
 		return this.a;
