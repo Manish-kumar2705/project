@@ -34,7 +34,7 @@ public class MapMain {
 	      map.put(2,"ankit");    
 	      map.put(1,"Cajaya");       
 	      
-	      System.out.println("\nThe elements of TreeMap are ");  
+	      System.out.println("\nTreeMap");  
 	      for(Map.Entry l:map.entrySet()){    
 	       System.out.println(l.getKey()+" "+l.getValue());    
 	      }    

@@ -55,6 +55,7 @@ public class CollectionMain {
 		System.out.println(i);
 	}
 	
+	//priority queue
 	System.out.println("\npriority queue");
 	PriorityQueue<Integer> pq = new PriorityQueue<>();
 	pq.add(4); //no null is allowed
@@ -64,6 +65,7 @@ public class CollectionMain {
 		System.out.println(i);
 	}
 	
+	//hashmap
 	System.out.println("\nhash map");		//hashmap based on hashtable principle
 	HashMap<Integer,String>  hm = new HashMap<>();
 	hm.put(1,"manish");
