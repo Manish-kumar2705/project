@@ -10,5 +10,6 @@ public static void main(String[] args) {
 	
 	//eg-2
 	System.out.println(Pattern.matches("....sh", "manish"));  //shortcut
+	
 }
 }
