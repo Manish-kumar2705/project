@@ -16,7 +16,7 @@ public class ThrowsDemo {
 			obj.div(13);			
 		} catch (Exception e) {						//if exception occur in test3 fn. then these catch statement will run.
 			// TODO: handle exception
-			System.out.println("cant divide by 0");
+			System.out.println(e.getMessage());
 		}
 	}
 
