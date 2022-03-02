@@ -17,7 +17,7 @@ public class AbstractMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		rectangle d = new rectangle(5,4);
+		Shape d = new rectangle(5,4);
 		d.area();
 		
 	}	
