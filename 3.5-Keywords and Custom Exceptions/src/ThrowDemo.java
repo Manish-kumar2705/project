@@ -4,7 +4,7 @@ class Test{
         try {
         	if(age<18) {  
             //throw Arithmetic exception if not eligible to vote  
-            throw new ArithmeticException("not eligible");    //custom exception- u created ur own logic to throw error if age<18
+            throw new ArithmeticException("not eligible");    //throws exception, catch will catch this
         	} 
         }
         catch (ArithmeticException e) {		//catching the throw exception
