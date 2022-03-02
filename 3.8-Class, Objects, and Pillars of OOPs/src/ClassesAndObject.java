@@ -1,5 +1,6 @@
-package methodOverloading;
-//code depicting method overloading. which method to run is determined during compile time
+//depicting classes and object
+
+//code depicting method overloading. which method to run is determined during compile .
 class TestOne{
 	int a,b;
 	void add(int a, int b, int c) {							// three arguments
@@ -27,7 +28,7 @@ class TestTwo extends TestOne{
 	}
 }
 
-public class MethodOverloading {
+public class ClassesAndObject {
 public static void main(String[] args) {
 	TestOne obj1 = new TestOne();
 	obj1.add(5,5,5);									// calling add function with 3 arguments
@@ -41,3 +42,4 @@ public static void main(String[] args) {
 }
 
 }
+
