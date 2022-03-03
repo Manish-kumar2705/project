@@ -16,7 +16,6 @@ public class InnerClassMain {
 		OuterClass ob =new OuterClass();     //outerclassobj
 		OuterClass.Inner ob2 = ob.new Inner(); //inner class obj is created inside the instance of outer class
 		ob2.display();
-		
 	}
 
 }
