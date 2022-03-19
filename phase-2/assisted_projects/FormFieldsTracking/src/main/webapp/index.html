@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="Post" name=hiddenform id=form action="LoginServlet">
+	<!-- type=text to input data , then hidding it in servlet 1 and passing the hidden data to servlet 2; -->
+	
+	<input type=hidden  name=userid value=manish_defaultName> 
+	<button type=submit>dashboard with hidden form fields</button> <!-- if type=hidden here, then default value denoted by value tag is passed to S1 then to S2 -->
+	</form>>
+	<br>
+	<a href="Dashboard">Dashboard without hidden form fields</a>
+</body>
+</html>
