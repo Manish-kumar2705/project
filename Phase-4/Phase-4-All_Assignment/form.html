@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+      .dropdown-menu {
+	position:relative;
+	width:100%;
+	top: 0px !important;
+    left: 0px !important;
+}
+  </style>  
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+$(document).ready(function(){
+	var data = 
+	[{"id":"222","name":"sneha","employee_salary":"100000","employee_age":"23"},{"id":"223","name":"arpita","employee_salary":"40000","employee_age":"33"},{"id":"225","name":"pogi","employee_salary":"5646545","employee_age":"546"},{"id":"229","name":"eer","employee_salary":"0","employee_age":"0"},{"id":"232","name":"sdfadf","employee_salary":"0","employee_age":"0"},{"id":"234","name":"dfgdgd","employee_salary":"45","employee_age":"21"},{"id":"236","name":"nb","employee_salary":"0","employee_age":"0"},{"id":"237","name":"BHsdgygbfvr1bn","employee_salary":"0","employee_age":"0"},{"id":"238","name":"BHsdgygbfvr1bn","employee_salary":"0","employee_age":"0"},{"id":"239","name":"assa","employee_salary":"0","employee_age":"0"}];
+	var $input = $(".typeahead");
+	$input.typeahead({
+	  source: data,
+	  autoSelect: true
+	});
+});
+    </script>
+    <div class="container">
+    <form>
+      <h1>Sign Up Form</h1>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Middle name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <br>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Password</label>
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Enter Password">
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Renter Password">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Confirm Password</button>
+        </form>
+        <br>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Age</label>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder=" Enter Age">
+          </div>
+        </div>
+        <br>
+
+        <div class="form-size">
+          <label for="exampleFormControlInput1">City</label>
+          <select class="form-control form-control">
+            <option>Solapur</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+          </select>
+        <br>
+
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Hobbies</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Reading</option>
+            <option>Listening</option>
+            <option>Playing Outdoor Groups</option>
+            <option>cooking</option>
+          </select>
+        </div>
+        <br>
+
+        <div class="form-check">
+          <label for="exampleFormControlSelect2">Gender</label><br>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">Male</label><br>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+            <label class="form-check-label" for="exampleRadios2">Female</label>
+        </div>
+        <br>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Profile Description</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div class="form-group" style>
+          <label for="exampleFormControlFile1">Upload Resume</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      <br>
+
+      <div class="form-group">
+        <div class="form-check">
+      <button type="Submit" class="btn btn-primary bg-transparent">
+      <a href= "./Dashboard.html">Submit</a>
+      </button>
+        </div>
+      
